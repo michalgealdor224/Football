@@ -15,8 +15,12 @@ class App extends React.Component {
   }
 
   findLeague = () => {
+    let array;
     axios.get('https://app.seker.live/fm1/leagues').then((response) => {
-      let array = [response.data[0].name, response.data[1].name, response.data[2].name]
+      for (let j = 0; j < response.data.length; j++) {
+        array += response.data[j].name
+
+      }
       this.setState({
         leagues: array
       })
@@ -24,12 +28,6 @@ class App extends React.Component {
   }
   componentDidMount() {
     this.findLeague()
-  }
-  changeLeague = (event) => {
-    this.setState({
-      current : event.target.value
-    })
-
   }
 
   render() {
