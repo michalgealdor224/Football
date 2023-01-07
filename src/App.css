@@ -1,38 +1,224 @@
-.App {
+select {
+  position: absolute;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height:80px;
+  font-family: Serif;
+  font-size: 30px;
+  top: 20%;
+  border-radius: 20px;
+}
+#min{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  font-family: Serif;
   text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  border: 2px solid #111;
+  border-radius: 20px;
+}
+#max{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-family: Serif;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  border: 2px solid #111;
+  border-radius: 20px;
+}
+#minText{
+  position: absolute;
+  left: 44%;
+  top: 30%;
+  font-family: Serif;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+#maxText{
+  position: absolute;
+  left: 44%;
+  top: 40%;
+  font-family: Serif;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+h2 {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  font-family: Serif;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+button {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  width: 100px;
+  height: 60px;
+  transform: translate(-50%, -50%);
   align-items: center;
+  border: 2px solid #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Serif;
+  font-size: 30px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  line-height: 24px;
+  max-width: 20%;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#navLink1{
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height:80px;
+  font-family: Serif;
+  font-size: 30px;
+}
+#navLink2{
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height:80px;
+  font-family: Serif;
+  font-size: 30px;
+}
+#navLink3{
+  position: absolute;
+  left: 65%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height:80px;
+  font-family: Serif;
+  font-size: 30px;
+}
+#navLink4{
+  position: absolute;
+  left: 78%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height:80px;
+  font-family: Serif;
+  font-size: 30px;
+}
+#topTable{
+  left: 280%;
+  margin-bottom: 20px;
+  text-align: center;
+  position: center;
+  font-family: Serif;
+  top: 10%;
+  transform: translate(450%, 700%);
+  font-size: 25px;
+
+
+}
+.top {
+  color: royalblue;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.lower {
+  color: red;
+  font-weight: bold;
+}
+body{
+  background-image: url("https://img.freepik.com/premium-vector/football-soccer-background-with-big-ball-gray-colors_444390-13590.jpg");
+}
+#resultId{
+  left: 60%;
+  margin-bottom: 20px;
+  text-align: center;
+  position: center;
+  top: 50%;
+  border: 2px solid #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-family: Serif;
+  transform: translate(180%, 1500%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#okButton{
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  width: 100px;
+  height: 60px;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  border: 2px solid #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Serif;
+  font-size: 30px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 20%;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#T1{
+  left: 60%;
+  margin-bottom: 20px;
+  text-align: center;
+  position: center;
+  top: 50%;
+  border: 2px solid #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-family: Serif;
+  transform: translate(180%, 800%);
+}
+#T2{
+  left: 60%;
+  margin-bottom: 20px;
+  text-align: center;
+  position: center;
+  top: 50%;
+  border: 2px solid #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-family: Serif;
+  transform: translate(285%, -1320%);
+}
+#T3{
+  left: 60%;
+  margin-bottom: 20px;
+  text-align: center;
+  position: center;
+  top: 50%;
+  border: 2px solid #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-family: Serif;
+  transform: translate(390%, -2400%);
 }
